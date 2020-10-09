@@ -1,0 +1,76 @@
+
+html {
+    height: 100%;
+    background: #ededed;
+}
+
+body {
+    text-align: left;
+    background: white;
+    width: 800px;
+    /*border: 1px solid grey; */
+    box-shadow: 3px 3px 5px 6px #ccc;
+    margin: 60px auto 60px auto;
+    padding: 60px;
+    font-family: sans-serif;
+}
+
+
+/* BASIC LIST SPECIFICATIONS */
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li a {
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+}
+
+nav {
+    border-left: 2px lightgrey solid;
+}
+
+nav li a:hover{
+    color: black;
+    font-weight: 130%;
+}
+
+
+
+.sourceCode pre {
+    background: #eaeaea;
+    width: 80%;
+    padding: 10px;
+    border-left: 3px solid lightgrey;
+}
+
+
+code:not(.sourceCode) {
+    color: orangered;
+    background: #eaeaea;
+    padding: 2px 4px 2px 4px;
+}
+
+
+/* PRINT MEDIA:
+ * This will enable the page size to be
+ * defined based on the print function
+ * of the browser. Margin size etc can
+ * be selected to suit.
+ */
+
+@media print {
+    body {
+        width: 100%;
+	margin: default;
+	padding: default;
+    }
+
+    html {
+        background: white;
+    }
+}
+
+
