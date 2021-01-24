@@ -66,7 +66,7 @@ OUT_FILE="./example.html"
 ```
 
 ```bash
-!pandoc $IN_FILE -t html -s --standalone --mathjax --bibliography=$BIBFILE --cls=$CITE_FILE -M link-citations=true --css=$STYLE_FILE -o $OUT_FILE
+!pandoc $IN_FILE -t html -s --standalone --mathjax --bibliography=$BIBFILE --csl=$CITE_FILE -M link-citations=true --css=$STYLE_FILE -o $OUT_FILE
 ```
 
 Pandoc is extremely powerful and has heaps of options which you can read about [here](https://pandoc.org/MANUAL.html).
