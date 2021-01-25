@@ -84,6 +84,12 @@ That is pretty much it. The hardest part is coming up with nice css so it will r
 Plenty to explore!
 
 
+## Extras! 
+
+The following should serve as a rough template for creating .pdf files from markdown documents with citations embedded and a bibliography generated at the end of the document. 
+
+```pandoc ./M1_Introduction.md --citeproc --csl=$CSL --bibliography=$BIB --variable papersize=a4paper -V geometry:margin=1in -o testing.pdf```
+
 
 
 
